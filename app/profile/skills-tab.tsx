@@ -90,7 +90,7 @@ export default function SkillsTab() {
                 <SelectValue placeholder="All Categories" />
               </SelectTrigger>
               <SelectContent>
-                <SelectItem value="">All Categories</SelectItem>
+                <SelectItem value="null">All Categories</SelectItem>
                 {categories.map((category) => (
                   <SelectItem key={category} value={category}>
                     {category}
@@ -104,7 +104,7 @@ export default function SkillsTab() {
                 <SelectValue placeholder="All Proficiencies" />
               </SelectTrigger>
               <SelectContent>
-                <SelectItem value="">All Proficiencies</SelectItem>
+                <SelectItem value="null">All Proficiencies</SelectItem>
                 <SelectItem value="novice">Novice</SelectItem>
                 <SelectItem value="advanced-beginner">Advanced Beginner</SelectItem>
                 <SelectItem value="competent">Competent</SelectItem>
