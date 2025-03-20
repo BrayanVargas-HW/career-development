@@ -10,7 +10,7 @@ export default function DevelopmentPage() {
   const [activeTab, setActiveTab] = useState("courses")
 
   return (
-    <div className="container py-10">
+    <div className="container py-10 mx-auto">
       <div className="flex items-center justify-between mb-6">
         <h1 className="text-3xl font-bold">Career Development Plan</h1>
       </div>

@@ -39,7 +39,7 @@ export default function TShapePage() {
   ]
 
   return (
-    <div className="container py-10">
+    <div className="container py-10 mx-auto">
       <h1 className="text-3xl font-bold mb-6">T-Shape Analysis</h1>
 
       <div className="grid gap-6 md:grid-cols-3">

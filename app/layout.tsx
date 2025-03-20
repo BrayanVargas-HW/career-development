@@ -24,7 +24,7 @@ export default function RootLayout({
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
           <div className="flex min-h-screen flex-col">
             <header className="border-b">
-              <div className="container flex h-16 items-center px-4">
+              <div className="container flex h-16 items-center px-4 mx-auto">
                 <MainNav />
                 <div className="ml-auto flex items-center space-x-4">
                   <UserNav />
@@ -33,7 +33,7 @@ export default function RootLayout({
             </header>
             <main className="flex-1">{children}</main>
             <footer className="border-t py-6">
-              <div className="container flex flex-col items-center justify-between gap-4 md:h-16 md:flex-row">
+              <div className="container flex flex-col items-center justify-between gap-4 md:h-16 md:flex-row mx-auto">
                 <p className="text-center text-sm text-muted-foreground md:text-left">
                   &copy; {new Date().getFullYear()} Engineer Career Development. All rights reserved.
                 </p>
